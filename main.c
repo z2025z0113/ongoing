@@ -12,7 +12,9 @@ typedef struct expenditureAndIncome{
 void AlipayBorrowItCalculate();
 
 int main(){
+	puts("program startup:");
 	AlipayBorrowItCalculate();
+	puts("program end.");
 	return 0;
 }
 
