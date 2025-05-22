@@ -1,0 +1,8 @@
+analysis report :
+time:
+debt : list
+[
+	2025.
+]
+deposit:
+
