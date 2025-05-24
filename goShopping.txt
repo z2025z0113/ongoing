@@ -1,3 +1,0 @@
-apple number:9 rmb:39
-rooster number:1 rmb:30
-
