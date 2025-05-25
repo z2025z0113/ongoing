@@ -3,3 +3,20 @@ Alipay HB:20000
 Alipay JB:30000
 20250525[2125]
 end.
+
+detailed description [202505260747]
+{
+	save some extra money ,try to pay off a certain amount of principal,
+	this will save you some interest.
+		[202505260750]
+}
+
+no adjustment possible :hb
+you can try hard :jb
+
+repayment date:
+	0610 eleme harbin finance.
+	0620 hb
+	0622 jb
+[202505260754]
+
