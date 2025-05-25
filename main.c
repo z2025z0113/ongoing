@@ -19,8 +19,15 @@ int main(){
 	struct tm *localTime = localtime(&currentTime);
 	char timeString[100] ;
 	strftime(timeString,sizeof(timeString),"%Y-%m-%d %H:%M:%S",localTime);
-
 	printf("current time:%s\n",timeString);
+	FILE *fptr;
+	fptr=fopen("report.txt","w");
+	if(fptr==NULL){
+		puts("error opening file");
+		return 1;
+	}
+	fprintf(fptr,"time is now:%s\n",timeString);
+	fclose(fptr);
 	puts("program end.");
 	return 0;
 }
