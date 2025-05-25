@@ -1,0 +1,4 @@
+start:
+rmb -agricultural Bank of China :500
+end.[202505252132]
+
