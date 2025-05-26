@@ -8,18 +8,11 @@ typedef struct expenditureAndIncome{
 	char *name;
 	struct expenditureAndIncome *next;
 }ExpenditureIncome;
-
-void AlipayBorrowItCalculate();
-
 int main(){
-	//puts("program startup:");
-	//AlipayBorrowItCalculate();
-	//puts("analysis report:");
 	time_t currentTime = time(NULL);
 	struct tm *localTime = localtime(&currentTime);
 	char timeString[100] ;
 	strftime(timeString,sizeof(timeString),"%Y-%m-%d %H:%M:%S",localTime);
-	//printf("current time:%s\n",timeString);
 	FILE *fptr;
 	fptr=fopen("report.txt","w");
 	if(fptr==NULL){
@@ -28,15 +21,5 @@ int main(){
 	}
 	fprintf(fptr,"time is now:%s\n",timeString);
 	fclose(fptr);
-	//puts("program end.");
 	return 0;
 }
-
-//borrowIt :the lending business has been deactivated . (principal:30000.) 
-void AlipayBorrowItCalculate(){
-	puts("Alipay borrowIt start:");
-	// update data from file :onlineLoan.txt
-	
-	puts("Alipay borrowIt end.");
-}
-
