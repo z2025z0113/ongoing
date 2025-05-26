@@ -2,3 +2,21 @@ game development:
 category : segmentation : do the details well.
 [202505260802]
 
+
+story +gameplay method/mode [202505260806]
+
+roguelike .
+puzzle
+intelligence
+action
+rpg :role playing games [202505260811]
+strategy
+chess and cards
+
+{
+	efforts to guide:
+		clear goals :split;
+		the right way ;
+}
+[202505260817]
+
